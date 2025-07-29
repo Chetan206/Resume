@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify - Web Player: Music for Everyone</title>
+  <link rel="shortcut icon" href="fevicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="demo">
+              
+      </div>
+    <div class="container">
+        <nav>
+          <div class="navitem1">
+            <span><img src="fevicon.png" alt=""></span>
+            <span><img src="nav-home.png" alt=""></span>
+            <span><input type="search" name="" id="searchbar" placeholder="what do you want to play?" ></span> </div>
+            <div class="Premiumtouch">
+            <span><a href="https://www.spotify.com/in-en/premium/">Premium</a></span>
+            <span><a href="https://support.spotify.com/in-en/">Support</a></span>
+            <span><a href="https://open.spotify.com/download">Download</a></span>
+            
+            <!-- BOX Sign -->
+            <span>&#8595    <a href="">  Install App</a></span>
+            <span><a href="">Sign in</a></span>
+            <span><Button type="button" id="log-in-button" onclick="loadNewpage()">Log in</Button></span>
+            
+            </div>
+        </nav>
+        <div class="left-box">
+          <div class="top-heading">
+            <span>Your Library </span>
+            <span id="plus-sign">&#43</span>
+            </div>
+
+            <div class="play-list-creation">
+                <div class="first-playlist">
+                  <h3>Create your first playlist</h3>
+                    <p>it's easy we'll help you</p>
+                    <button type="button" id="plybutton">Create Playlist</button>
+                </div>
+                <div class="podcast">
+                    <h3>Let's find some podcast to follow</h3>
+                    <p>we'll keep you updateed pn new episodes</p>
+                    <button type="button" id="BrowseBTN">Browse Podcasts</button>
+                </div>
+                
+            </div>
+              <div class="left-box-footer">
+                    <table>
+                    <tr>
+                      <th><a href="https://www.spotify.com/in-en/legal/end-user-agreement/">Legal</a></th>
+                      <th> <a href="https://www.spotify.com/in-en/safetyandprivacy">Privacy-center</a></th>
+                      <th><a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a></th>
+                    </tr>
+                    <tr>
+                      <td><a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></td>
+                      <td><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About ads</a></td>
+                      <td><a href="https://www.spotify.com/in-en/accessibility">Accessibility</a></td>  
+                    </tr>
+                    </table>
+                    <a href="https://www.spotify.com/in-en/legal/cookies-policy/" id="cid">Cookies</a> <br>
+                    <button type="button" id="language">English</button>
+                </div>
+        </div>
+<!-- Write Box Work -->
+        <div class="right-box">
+                 <div class="Right-Box-headPoint">
+                  <h1>Trending songs</h1>
+                  <p><a href="">show all</a></p>
+                 </div>
+                 <div class="musics">
+                    <div class="songs">
+                        <img src="Saiyarra-Song-poster.jpg" alt="Saiyara-Poster" id="songs-img">
+                        <button type="button" onclick="saiyaaraPlay()" id="song-button"> &#9658;</button>  
+                         <audio id="saiyaara-audio"    src="Saiyaara(KoshalWorld.Com).mp3"v type="saiyaara-audio/mp3" ></audio>        
+                        <a href=""  >Saiyaara(From "Saiyaara")</a>
+                        <p>Tanisk Bagchi, Faheem abdullah, Arslan Nizami,''</p>
+                    </div>
+                  <div class="songs">
+                        <img src="Sanam-teri-kasam.jpeg" alt="sanam-Poster" id="songs-img">
+                        <button type="button" onclick="sanamPlay()" id="song-button"> &#9658;</button>  
+                         <audio id="sanam"    src="sanam-teri-kasam-title-song-ankit-tiwari-17219.mp3"v type="sanam-teri-kasam-audio/mp3" ></audio>        
+                        <a href="">Sanam teri kasam</a>
+                        <p>Himesh Rashammiya, Faheem abdullah, Arslan Nizami,''</p>
+                    </div>
+                      <div class="songs">
+                        <img src="pal-pal-jeena-muhal.jpeg" alt="pal-pal-Poster" id="songs-img">
+                        <button type="button" onclick="palpalPlay()" id="song-button"> &#9658;</button>  
+                         <audio id="palpal"    src="Pal Pal(KoshalWorld.Com).mp3"v type="pal-pal-jeena-audio/mp3" ></audio>        
+                        <a href=""  >Pal Pal Jeena Muhal</a>
+                        <p>Arya  Chakradhari</p>
+                    </div>
+                     <div class="songs">
+                        <img src="finding-her.jpeg" alt="pal-pal-Poster" id="songs-img">
+                        <button type="button" onclick="findingPlay()" id="song-button"> &#9658;</button>  
+                         <audio id="findingher"    src="Finding Her Kushagra 128 Kbps.mp3"v type="finding-her-audio/mp3" ></audio>        
+                        <a href=""  >Finding Her</a>
+                        <p>Kushagra,Bharath,,Saaheal</p>
+                    </div>
+
+                    <div class="songs">
+                        <img src="Sahiba.jpeg" alt="pal-pal-Poster" id="songs-img">
+                        <button type="button" onclick="findingPlay()" id="song-button"> &#9658;</button>  
+                         <audio id="sahiba"    src="Sahiba Priya Saraiya 128 Kbps.mp3"v type="sahiba-audio/mp3" ></audio>        
+                        <a href=""  >Finding Her</a>
+                        <p>Kushagra,Bharath,,Saaheal</p>
+                    </div>
+
+                    <div class="songs">
+                        <img src="sapphire.jpeg" alt="pal-pal-Poster" id="songs-img">
+                        <button type="button" onclick="findingPlay()" id="song-button"> &#9658;</button>  
+                         <audio id="sahiba"    src="Sahiba Priya Saraiya 128 Kbps.mp3"v type="sahiba-audio/mp3" ></audio>        
+                        <a href=""  >Finding Her</a>
+                        <p>Kushagra,Bharath,,Saaheal</p>
+                    </div>
+
+                 </div>
+                
+        </div>
+    </div>
+    <script src="script.js"></script>
+     
+</body>
+</html> 

@@ -1,0 +1,252 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        overflow-x: hidden;
+        height: 100vh;
+    background-color: rgb(32, 31, 31);
+    }
+    .Login_Box{
+        background-color: rgb(0, 0, 0);
+        color: black;
+        width: 60vw;
+        height: 700px;
+        border: 1px solid black;
+        border-radius: 25px;
+        margin: 25px auto;
+    }
+
+    .headPoint{
+        color: white;
+        font-size: 14px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    .headPoint img{
+        border-radius: 100%;
+        width: 80px;   
+    }
+    .Social-Medial{
+        width: 500px;
+    }
+    .google{
+        width: 314px;
+        height: 55px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        font-size: 20px;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 300px;
+        margin-left: 220px;
+        margin-top: 20px;
+    }
+
+    .google:hover{
+        border: 1px solid white;
+        cursor: pointer;
+    }
+
+    .google img{
+        width: 60px;
+        height: 52px;
+    }
+
+    .facebook{
+        width: 314px;
+        height: 55px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        font-size: 20px;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 300px;
+        margin-left: 220px;
+        margin-top: 20px;
+    }
+
+    .facebook img{
+        width: 50px;
+        height: 37px;
+    }
+
+    .facebook:hover{
+        border: 1px solid white;
+        cursor: pointer;
+    }
+
+    .apple{
+        width: 314px;
+        height: 55px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        font-size: 20px;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 300px;
+        margin-left: 220px;
+        margin-top: 20px;
+    }
+
+    .apple img{
+        width: 50px;
+        height: 37px;
+    }
+
+    .apple:hover{
+        border: 1px solid white;
+        cursor: pointer;
+    }
+
+
+    .phone{
+        width: 314px;
+        height: 55px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        font-size: 20px;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 300px;
+        margin-left: 220px;
+        margin-top: 20px;
+    }
+
+
+
+    .phone:hover{
+        border: 1px solid white;
+        cursor: pointer;
+    }
+
+    .Social-Medial span{
+        padding-bottom: 1   px;
+    }
+
+    .input{
+    color: white;
+    text-align: center;
+    }
+
+    #label{
+        padding-right: 149px;
+        font-weight: bolder;
+    }
+
+    #inputEmail{
+        width: 290px;
+        height: 33px;
+        border-radius: 10px;
+        text-align: unset;
+        border: 1px solid grey;
+        background-color: black;
+        margin: 5px;
+    }
+
+    #inputEmail:hover{
+    border: 1px solid white;
+    }
+
+    #continue{
+        width: 290px;
+        height: 40px;
+        text-align: center;
+        margin-left: 230px;
+        background-color: rgb(19, 255, 19);
+        border: 1px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    #continue:hover{
+        border: 1px solid white;
+    }
+
+    .end-line{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 20px;
+    }
+
+    .end-line  p{
+        color: grey;
+    }
+
+    .end-line a{
+        color: white;
+    }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="Login_Box">
+                <div class="headPoint">
+                    <img src="Spotify.png" alt=""> 
+                    <h1>log in to Spotify</h1>
+                </div>
+                <div class="Social-Medial">          
+                    <div class="google">
+                    <img src="Google.png" alt="">
+                            <span> Continue with Google</span>
+                    </div>  
+
+                    <div class="facebook">
+                        <img src="facebook.png" alt="" height="60px" width="40px">
+                        <span>Continue with Facebook</span>
+                    </div>
+
+                    <div class="apple">
+                        <img src="Apple.jpg" alt="">
+                        <span>Continue with Apple</span>
+                    </div>
+                        
+                    <div class="phone">
+                        <span>Continue with phone</span>
+                    </div>
+                </div><br>
+                <p id="Emoji">&#128540;</p>
+                <br>
+                <div class="input-Box">
+                    <div class="input">
+                <label for="" id="label">Email or username</label> <br>
+                <input type="email" name="" id="inputEmail" placeholder="Email or username"></div> <br>
+                <button type="button" id="continue">Continue</button>
+                </div>
+
+                <div class="end-line">
+                    <p>Don't have an account</p> <a href="">Sign up for spotify</a>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
