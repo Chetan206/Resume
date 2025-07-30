@@ -62,8 +62,42 @@ function sahibaPlay(){
     }
 }
 
+var sappireSong = document.getElementById('sapphire');
+var count = 0;
+function sapphirePlay(){
+    if(count == 0){
+        count = 1;
+        sappireSong.play();
+    }else{
+        count = 0;
+        sappireSong.pause();
+    }
+}
 
 
+var galKhas = document.getElementById('galKhas');
+var count = 0;
+function galKhasPlay(){
+    if (count == 0) {
+        count = 1;
+        galKhas.play();
+    }else{
+        count = 1;
+        galKhas.pause();
+    }
+}
+
+var goatSong = document.getElementById('goat');
+var count = 0;
+function  goatPlay(){
+    if (count == 0) {
+        count = 1;
+        goatSong.play();
+    }else{
+        count = 1;
+        goatSong.pause();
+    }
+}
 
 
 function loadNewpage(){
