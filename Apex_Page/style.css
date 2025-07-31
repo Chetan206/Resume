@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+  width: 100vw;
+  height: 100%;
+   overflow-x: none;
+background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); 
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.navcontainer{
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.52) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+}
+
+#navlist{
+ list-style: none;  
+ display: flex;
+ width: 100%;
+ color: white;
+ gap: 950px;
+}
+#brandname{
+    color: white;
+    font-size: 15px;
+    animation-name: colormovement;
+    animation-timing-function: 2s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    
+}
+
+	@keyframes  colormovement{
+		from{
+		color: white(114, 124, 18);
+		}
+		to{
+			 color:  rgb(226, 226, 226)
+		}
+	}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+#flex{
+    display: flex;
+    gap: 30px;
+}
+.footerbox{
+    background: #7a6974;
+background: linear-gradient(90deg, rgba(155, 42, 119, 1) 0%, rgb(63, 62, 62) 67%, rgb(75, 74, 66) 60%);
+    width: 100%;
+    text-align: center;
+    min-height: 40px;
+}
+
+ .contentbox{
+   width: 100%;
+   height: 100%;
+   border: 1px solid black;
+   background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 95%);
+ }
+  img{
+    width: 400px;
+    height: 490px;
+    border: 1px solid black;
+    border-radius: 22px;
+    margin: 100px;
+    position: relative;
+    animation-name: rightmovement;
+    animation-duration: 0.9s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-direction:reverse;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+  }
+
+  @keyframes rightmovement {
+    from{
+          top:0;
+          left:0;
+    }
+    to{
+           top: 0;
+           left: 200px;
+    }
+  }
+.footerbox p{
+    color: white;
+    font-size:25px ;
+}
+
+.item{ 
+    display: flex;
+    justify-content: space-between;
+}
+.leftbox{
+    color: white;
+    padding: 25px;
+    margin: 140px;
+         margin-right: 5px;
+}
+
+#unlist li{
+         font-size: 30px;
+         margin: 10px;
+         margin-right: 15px;
+         align-items: justify;
+}
+
+h1 {
+    font-size: 50px;
+}
