@@ -74,7 +74,6 @@ function sapphirePlay(){
     }
 }
 
-
 var galKhas = document.getElementById('galKhas');
 var count = 0;
 function galKhasPlay(){
