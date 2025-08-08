@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Chetan Bansal</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+nav{
+    justify-content: space-evenly;
+    margin: 20px;
+    text-align: center;
+}
+
+#navheading{
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+#navWeb a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-size: larger;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navWeb a:hover{
+    color: white;
+    background-color: rgb(122, 164, 180);
+    border-radius: 100px;
+}
+
+main{
+    width: 89vw;
+    height: 100vh;
+    margin: 50px 85px;
+    display: flex;
+  justify-content: space-between;
+}
+
+.leftBox{
+    margin: 10px;
+    float: right;
+    font-weight: 100;
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.leftBox h1{
+    padding: 10px;
+    font-size: 40px;
+}
+
+.leftBox p{
+    font-size: 20px;
+    padding: 10px   ; 
+}
+
+img{
+   border-radius: 20px;
+  
+  }
+
+    </style>
+</head>
+<body>
+       <div id="container">
+    <nav>
+        <div id="navheading">
+        <h1>Chetan Bansal</h1>
+        </div>
+        <div id="navWeb">
+        <a href="index.html">Home</a>
+        <a href="">About</a>
+        <a href="skill.html">Skills</a>
+        <a href="Experience.html">Project</a>
+        <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+       <main>
+           <div class="leftBox">
+            <h1>Salesforce Developer</h1>
+            <p style="color: grey;">Salesforce Developer with expertise in Apex, Visualforce, Lightning Components, and integration. Skilled in building scalable solutions to enhance CRM functionality and business workflows.
+</p>      
+            <h1>FullStack Developer</h1>     
+            <p style="color: grey;">Full Stack Developer with expertise in building scalable web applications using modern front-end and back-end technologies. Skilled in delivering high-quality, user-focused solutions from concept to deployment."
+</p>
+            <h1>AWS Engineer</h1>
+            <p style="color: grey;">AWS Engineer with expertise in designing, deploying, and managing scalable cloud infrastructure using EC2, S3, RDS, and Lambda.</p>
+           </div>
+           
+           
+            <div id="img">
+                <img src="chetan-sort-Image.jpg" alt="Chetan-Bansal Image" width="500px" height="">
+            </div>
+       </main>
+    </div>
+</body>
+</html>

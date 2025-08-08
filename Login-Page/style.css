@@ -6,6 +6,7 @@
 body{
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 
 ::-webkit-scrollbar{
@@ -22,6 +23,7 @@ nav{
     margin-bottom: 20px;
     font-weight: 800;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
 }
 #navWeb a{
     text-decoration: none;
@@ -38,23 +40,51 @@ nav{
     border-radius: 100px;
 }
 
-/* main{
-    width: 60vw;
-    height: 80vh;
-    text-align: center;
-    margin-top: 100px;
-    float: left;
+main{
+    width: 89vw;
+    height: 100vh;
+    margin: 50px 85px;
+    display: flex;
+  justify-content: space-between;
 }
-.content{
-    
+
+.leftBox{
+    margin: 10px;
+    float: left;
+    font-weight: 100;
+    width: 700px;
+    margin-top: 180px;
+    margin-left: 20px;
+}
+
+.leftBox h1{
+    padding: 10px;
+    font-size: 40px;
+}
+
+.leftBox p{
+    font-size: 20px;
+    padding: 10px   ; 
 }
 
 img{
-     margin-top: 100px;
-     width: 300px;
+   border-radius: 20px;
+     position: relative;
+    animation-name: rightmovement;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+    animation-timing-function: linear;
+    animation-direction: alternate;
 }
-
-#p{
-    background-color: aquamarine;
-    
-} */
+@keyframes rightmovement {
+    from{
+          top:0;
+          left:0;
+    }
+    to{
+           top: 0;
+           left: 20px;
+           right: -10;
+    }
+  }

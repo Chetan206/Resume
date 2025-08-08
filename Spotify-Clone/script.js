@@ -34,7 +34,7 @@ function palpalPlay(){
     }else{
         count = 0;
         palPalJeena.pause();
-    }
+    } 
 }
 
 var findingHer = document.getElementById('findingher');
@@ -108,3 +108,5 @@ function loadNewpage(){
     x.send();
 }
 
+
+ 
